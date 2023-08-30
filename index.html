@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta cahrset="utf-8">
-        <title>taptap</title>
-        <link rel="stylesheet" href="style.css">  
-    </head>
-    <body>
-        <h2>presiona rapido si quieres ganar</h2>
-        <p>jugador 1 usa la tecla d</p>
-        <p>jugador 2 usa la tecla k</p>
-        <p>cuantos puntos para la victoria:
-            <input type="number" id="cantidad_puntos"/>
-            <button id="guardar_puntos">aceptar</button>
-        </p>
 
-        <section>
-            <p>jugador 1: <span id="jugador1">0</span></p>
-            <p>jugador 2: <sapn id="jugador2">0</sapn></p>
-        </section>
-        <div class="barrita1"></div>
-        <div class="barrita2"></div>
-        <section>
-            <span id="ganador"></span>
-        </section>
-        <section>
-            <button id="reiniciar">reiniciar</button>
-        </section>
-    </body>
-    <script src="tap.js"></script>
+<head>
+  <meta cahrset="utf-8">
+  <title>taptap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>presiona rapido si quieres ganar</h2>
+  <p>jugador 1 usa la tecla d</p>
+  <p>jugador 2 usa la tecla k</p>
+  <p>cuantos puntos para la victoria:
+    <input type="number" id="cantidad_puntos" />
+    <button id="guardar_puntos">aceptar</button>
+  </p>
+
+  <section>
+    <p>jugador 1: <span id="jugador1">0</span></p>
+    <p>jugador 2: <sapn id="jugador2">0</sapn>
+    </p>
+  </section>
+  <section id="barras">
+    <div class="barrita1"></div>
+    <div class="barrita2"></div>
+  </section>
+  <section>
+    <span id="ganador"></span>
+  </section>
+  <section>
+    <button id="reiniciar">reiniciar</button>
+  </section>
+</body>
+<script src="tap.js"></script>
+
 </html>
